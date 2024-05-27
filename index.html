@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Photographe<br>Nina Carducci</title>
+    <title>Nina Carducci</title>
     <meta
       name="description"
       content="Nina Carducci, photographe professionnelle en Île-de-France. Spécialisée dans les portraits, les mariages et les concerts."
@@ -29,12 +29,35 @@
     <!-- référencement Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@nom_d'utilisateur_twitter" />
+    <!--  demander nom d'utilisateur twitter -->
     <meta name="twitter:title" content="Photographe Nina Carducci" />
     <meta
       name="twitter:description"
       content="Nina Carducci, photographe professionnelle en Île-de-France. Spécialisée dans les portraits, les mariages et les concerts."
     />
     <meta name="twitter:image" content="./assets/images/nina.webp" />
+
+    <!-- référencement schéma.org -->
+    <!--  demander nom d'URL faecbook/twitter -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nina Carducci",
+        "url": "https://selincesur.github.io/Nina-Carducci-Dev/",
+        "image": "./assets/images/nina.webp",
+        "jobTitle": "Photographe professionnelle",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Nina Carducci Photographe"
+        },
+        "sameAs": [
+          "URL_DE_VOTRE_PROFIL_FACEBOOK",
+          "URL_DE_VOTRE_PROFIL_TWITTER"
+        ],
+        "description": "Nina Carducci, photographe professionnelle en Île-de-France. Spécialisée dans les portraits, les mariages et les concerts."
+      }
+    </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
