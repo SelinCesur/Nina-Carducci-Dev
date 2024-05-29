@@ -239,6 +239,12 @@ input[type="submit"] {
   padding: 0.5em 1em;
 }
 
+.my-4 :hover {
+  background-color: #5f5926;
+  color: white;
+  border-radius: 0;
+}
+
 @media all and (max-width: 1180px) {
   .picture {
     flex: 2;
